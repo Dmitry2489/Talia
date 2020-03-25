@@ -1,4 +1,32 @@
-h1, h2, h3, h4, h5, h6, ul {
+html {}
+
+html {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: normal;
+    font-family: "Arimo", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
     margin: 0;
     padding: 0;
 }
